@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="577,297" caption="0,0,0,32">
+    <VerticalLayout width="577" height="297" bkimage="skin\登录背景.jpg">
+        <HorizontalLayout width="576" height="34">
+            <Button name="BTN_MIN" float="true" pos="504,2,0,0" width="33" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skin\sys_dlg_min.png&apos; source=&apos;52,0,78,17&apos;" hotimage="file=&apos;skin\sys_dlg_min.png&apos; source=&apos;26,0,52,17&apos;" pushedimage="file=&apos;skin\sys_dlg_min.png&apos; source=&apos;0,0,26,17&apos;" />
+            <Button name="BTN_CLOSE" float="true" pos="540,2,0,0" width="33" height="31" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;skin\sys_dlg_close.png&apos; source=&apos;90,0,135,17&apos;" hotimage="file=&apos;skin\sys_dlg_close.png&apos; source=&apos;45,0,90,17&apos;" pushedimage="file=&apos;skin\sys_dlg_close.png&apos; source=&apos;0,0,45,17&apos;" />
+        </HorizontalLayout>
+        <Edit name="EDIT_USER_NAME" tooltip="输入用户名" float="true" pos="208,79,0,0" width="199" height="35" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="EDIT_USER_PASSWORD" tooltip="输入用户密码" float="true" pos="208,132,0,0" width="199" height="35" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" password="true" />
+        <Button name="BTN_LOGIN" text="登    录" float="true" pos="239,182,0,0" width="146" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Label float="true" pos="159,79,0,0" width="35" height="29" bkimage="skin\用户名.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label float="true" pos="159,138,0,0" width="35" height="29" bkimage="skin\密码.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+    </VerticalLayout>
+</Window>

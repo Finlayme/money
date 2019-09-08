@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="941,649">
+    <VerticalLayout width="941" height="521" bkimage="skin\backgrand.jpg">
+        <HorizontalLayout width="940" height="34" bkcolor="#FF00C0FF">
+            <Button name="BTN_CLOSE" float="true" pos="898,2,0,0" width="38" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_close.png&apos; source=&apos;90,0,135,17&apos;" hotimage="file=&apos;sys_dlg_close.png&apos; source=&apos;45,0,90,17&apos;" pushedimage="file=&apos;sys_dlg_close.png&apos; source=&apos;0,0,45,17&apos;" />
+            <Button name="BTN_MIN" float="true" pos="859,1,0,0" width="38" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_min.png&apos; source=&apos;52,0,78,17&apos;" hotimage="file=&apos;sys_dlg_min.png&apos; source=&apos;26,0,52,17&apos;" pushedimage="file=&apos;sys_dlg_min.png&apos; source=&apos;0,0,26,17&apos;" />
+        </HorizontalLayout>
+        <Edit name="EDIT_GOODS_NAME" float="true" pos="92,51,0,0" width="149" height="38" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="EDIT_GOODS_LEFT" float="true" pos="348,53,0,0" width="74" height="38" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Edit name="EDIT_GOODS_COUNT" float="true" pos="571,54,0,0" width="149" height="38" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Button name="BTN_ADD" text="+" float="true" pos="539,64,0,0" width="23" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Button name="BTN_SUB" text="-" float="true" pos="730,61,0,0" width="23" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Label text="商品名称:" float="true" pos="9,53,0,0" width="75" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="库存剩余:" float="true" pos="265,53,0,0" width="75" height="36" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Button name="BTN_SELECT" text="查 询" float="true" pos="444,56,0,0" width="71" height="37" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" />
+        <List float="true" pos="11,103,0,0" width="889" height="467"  itemalign="center" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF">
+            <ListHeader name="domain" bkimage="skin/list_header_bg.png">
+                 <ListHeaderItem text="商品名称" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                 <ListHeaderItem text="价格" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                 <ListHeaderItem text="数量" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                 <ListHeaderItem text="单位" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                 <ListHeaderItem text="总价" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+             </ListHeader>
+        </List>
+        <Edit name="EDIT_TOTAL" float="true" pos="129,590,0,0" width="134" height="44" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Button name="BTN_COMMIT" text="确认售出" float="true" pos="431,594,0,0" width="102" height="39" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" />
+        <Button name="BTN_CANCEL" text="取 消" float="true" pos="558,596,0,0" width="102" height="39" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" />
+        <Label text="总价格:" float="true" pos="46,593,0,0" width="64" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+    </VerticalLayout>
+</Window>

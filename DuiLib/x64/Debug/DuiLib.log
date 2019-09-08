@@ -1,0 +1,11 @@
+﻿生成启动时间为 2019/8/5 15:10:55。
+     1>项目“D:\项目文档\DuilibTest\X64\duilib-master\duilib-master\duilib-master\DuiLib\DuiLib.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\项目文档\DuilibTest\X64\duilib-master\duilib-master\duilib-master\x64\Debug\DuiLib.dll) does not match the Linker's OutputFile property value (D:\项目文档\DuilibTest\X64\duilib-master\duilib-master\duilib-master\bin\DuiLib_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(DuiLib) does not match the Linker's OutputFile property value (DuiLib_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         DuiLib.vcxproj -> D:\项目文档\DuilibTest\X64\duilib-master\duilib-master\duilib-master\x64\Debug\DuiLib.dll
+     1>已完成生成项目“D:\项目文档\DuilibTest\X64\duilib-master\duilib-master\duilib-master\DuiLib\DuiLib.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.32

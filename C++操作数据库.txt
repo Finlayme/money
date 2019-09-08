@@ -1,0 +1,27 @@
+本文主要是MySQL数据库操作，在开始前，必须先安装好数据库。
+1. 环境配置：
+    a. mysql版本最好和系统一直，即64位系统对应64位mysql，32位系统对应32位mysql
+    b. 建立vs工程，将mysql的库函数以及库文件加载到工程目录下，该文件一般在mysql的安装目录下，或者：C:\Program Files\MySQL\MySQL Server 5.7
+          >> 包含头文件目录: 项目-->属性--->C/C++选项--->常规--->附加包含目录
+          >> 包含静态库文件: 项目--->属性--->链接--->常规--->附加库目录
+          >> 将静态库引入到工程中：项目--->属性--->链接--->输入--->附加依赖项，添加：libmysql.lib;
+    c. 引入文件的顺序需要注意 mysql.h一定要在Winsock2.h后引入
+
+2. 需要用到的sql语句：
+     连接数据库：mysql -h 127.0.0.1 -P 3306 -u root -p    注意：-h 127.0.0.1  表示本地连接  -P 3306 MySQL的默认端口号   -u root 代表用户   -p 后面输入密码 
+     显示数据库: show databases;
+     选择数据库: use cashier;
+     显示当前数据库中所有表：show tables;
+     显示指定表结构：desc employee;
+     创建数据库: create database Cashier;
+
+3. 数据库操作常用API：
+    >> 初始化数据库：mysql_init
+    >> 链接数据库：mysql_real_connect
+    >> 执行sql语句：mysql_query
+    >> 断开连接： mysql_close
+    >> mysql_store_result: 检索完整的数据集到客户端
+    >> mysql_num_fields：结果集中总共有多少行
+    >> mysql_fetch_row(resource result): 从指定的结果集中获取一行数据并作为数组返回
+    >> mysql_free_result: 释放结果集
+

@@ -1,0 +1,16 @@
+﻿生成启动时间为 2019/8/18 14:41:52。
+     1>项目“D:\WorkStations\上课\讲课\2019火箭班\TestDuilib\TestDuilib\TestDuilib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\WorkStations\上课\讲课\2019火箭班\TestDuilib\DuiLib" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LogIn.cpp
+         LogIn.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\WorkStations\上课\讲课\2019火箭班\TestDuilib\Debug\TestDuilib.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\WorkStations\上课\讲课\2019火箭班\TestDuilib\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\WorkStations\上课\讲课\2019火箭班\TestDuilib\Debug\TestDuilib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WorkStations\上课\讲课\2019火箭班\TestDuilib\Debug\TestDuilib.lib" /MACHINE:X86 Debug\CashierWnd.obj
+         Debug\DuilibTest.obj
+         Debug\LogIn.obj
+         Debug\MainWnd.obj
+         TestDuilib.vcxproj -> D:\WorkStations\上课\讲课\2019火箭班\TestDuilib\Debug\TestDuilib.exe
+     1>已完成生成项目“D:\WorkStations\上课\讲课\2019火箭班\TestDuilib\TestDuilib\TestDuilib.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.18

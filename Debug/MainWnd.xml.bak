@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="941,649">
+    <VerticalLayout width="941" height="521" bkimage="skin\backgrand.jpg">
+        <HorizontalLayout width="940" height="34" bkcolor="#FF00C0FF">
+            <Button name="BTN_CLOSE" float="true" pos="898,2,0,0" width="38" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_close.png&apos; source=&apos;90,0,135,17&apos;" hotimage="file=&apos;sys_dlg_close.png&apos; source=&apos;45,0,90,17&apos;" pushedimage="file=&apos;sys_dlg_close.png&apos; source=&apos;0,0,45,17&apos;" />
+            <Button name="BTN_MIN" float="true" pos="859,1,0,0" width="38" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_min.png&apos; source=&apos;52,0,78,17&apos;" hotimage="file=&apos;sys_dlg_min.png&apos; source=&apos;26,0,52,17&apos;" pushedimage="file=&apos;sys_dlg_min.png&apos; source=&apos;0,0,26,17&apos;" />
+        </HorizontalLayout>
+        <HorizontalLayout width="937" height="41">
+            <Option name="OPTION_EMPLOYEE" text="员工操作" float="true" pos="6,5,0,0" width="80" height="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="skin\toolbar_normal.png" hotimage="skin\toolbar_hover.png" pushedimage="skin\toolbar_pushed.png" group="true" selected="true" />
+            <Option name="OPTION_GOODS" text="商品操作" float="true" pos="90,5,0,0" width="80" height="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="skin\toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" group="true" />
+        </HorizontalLayout>
+        <TabLayout name="tablayout">
+            <VerticalLayout width="914" height="563">
+                <Edit name="username" text="page1" width="80" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Combo name="usergender" float="true" pos="90,0,0,0" width="140" height="30" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;skin/Combo_over.bmp&apos;" hotimage="file=&apos;skin/Combo_over.bmp&apos; " pushedimage="file=&apos;skin/Combo_over.bmp&apos; " dropboxsize="0,150">
+                    <ListLabelElement  text="男"/>
+                    <ListLabelElement  text="女"/>
+                </Combo>
+                <Edit name="userbirthday" text="birthday" float="true" pos="240,0,0,0" width="80" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Combo name="position" float="true" pos="330,0,0,0" width="140" height="30" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;skin/Combo_over.bmp&apos;" hotimage="file=&apos;skin/Combo_over.bmp&apos; " pushedimage="file=&apos;skin/Combo_over.bmp&apos; " dropboxsize="0,150">
+                    <ListLabelElement text="管理员"/>
+                    <ListLabelElement text="售货员"/>
+                </Combo>
+                <Edit name="telphone" text="tel" float="true" pos="480,0,0,0" width="80" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Edit name="salary" text="$$$" float="true" pos="570,0,0,0" width="80" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <List name="ListDemo1" float="true" pos="10,40,0,0" width="700" height="500" bkcolor="#FFFFFFFF" itemtextcolor="#FF000000" itembkcolor="#FFE2DDDF" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" headerbkimage="skin/list_header_bg.png" vscrollbar="true" hscrollbar="true">
+                    <ListHeader name="domain" bkimage="skin/list_header_bg.png">
+                        <ListHeaderItem text="姓名" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                        <ListHeaderItem text="性别" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                        <ListHeaderItem text="生日" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                        <ListHeaderItem text="职务" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                        <ListHeaderItem text="电话" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                        <ListHeaderItem text="薪资" width="100" height="23" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                    </ListHeader>
+                </List>
+                <Button name="BTN_SELECT" text="查询" float="true" pos="764,149,0,0" width="65" height="52" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="toolbar_hover.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" />
+                <Button name="BTN_INSERT" text="插入" float="true" pos="764,227,0,0" width="65" height="52" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="toolbar_hover.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" />
+                <Button name="BTN_UPDATE" text="更新" float="true" pos="764,304,0,0" width="65" height="52" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="toolbar_hover.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" />
+                <Button name="BTN_DELETE" text="删除" float="true" pos="764,384,0,0" width="65" height="52" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="toolbar_hover.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" />
+                <Button name="BTN_SELL_RECORD" text="销售记录" float="true" pos="764,461,0,0" width="65" height="52" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="toolbar_hover.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" />
+                <Combo name="COMOB_SELECT" float="true" pos="759,53,0,0" width="122" height="30" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="skin\Combo_nor.bmp" hotimage="skin\Combo_over.bmp" pushedimage="skin\Combo_over.bmp" dropboxsize="0,150" />
+            </VerticalLayout>
+            <VerticalLayout>
+                <Edit name="testpage2" text="page2" width="100" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" />
+            </VerticalLayout>
+        </TabLayout>
+    </VerticalLayout>
+</Window>
